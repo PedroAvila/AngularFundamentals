@@ -9,8 +9,7 @@ import { NavBarComponent } from './nav/navbar.component'
 
 @NgModule({
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   declarations: [
     EventsAppComponent,
@@ -18,7 +17,6 @@ import { NavBarComponent } from './nav/navbar.component'
     EventThumbnailComponent,
     NavBarComponent
   ],
-  providers: [],
   bootstrap: [EventsAppComponent]
 })
 export class AppModule { }
